@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: oklch(0.97 0.01 85);
+    --foreground: oklch(0.15 0.02 70);
+    --primary: oklch(0.35 0.06 55);
+    --primary-foreground: oklch(0.97 0.01 85);
+    --secondary: oklch(0.88 0.04 80);
+    --secondary-foreground: oklch(0.20 0.04 50);
+    --muted: oklch(0.93 0.02 80);
+    --muted-foreground: oklch(0.45 0.04 60);
+    --accent: oklch(0.75 0.08 70);
+    --accent-foreground: oklch(0.15 0.02 70);
+    --border: oklch(0.85 0.03 80);
+    --ring: oklch(0.55 0.06 60);
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+}
