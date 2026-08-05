@@ -1,4 +1,4 @@
-// fig-vite-config v1
+// fig-vite-config v6
 import path from 'path'
 import { createHmac, timingSafeEqual } from 'crypto'
 import { defineConfig, Plugin } from 'vite'
@@ -57,10 +57,34 @@ function previewAuthPlugin(): Plugin {
   }
 }
 
-export default defineConfig({
-  plugins: [previewAuthPlugin(), react()],
+// Visual edit (dev only): injects the fig-inspector bridge into the served HTML.
+// apply:'serve' guarantees it never reaches a production build.
+function figInspectorPlugin(): Plugin {
+  return {
+    name: 'fig-inspector',
+    apply: 'serve',
+    transformIndexHtml() {
+      return [
+        { tag: 'script', attrs: { type: 'module', src: '/.fig/inspector.js' }, injectTo: 'body' },
+      ]
+    },
+  }
+}
+
+export default defineConfig(({ command }) => ({
+  plugins: [
+    previewAuthPlugin(),
+    // Dev serves JSX through the fig-tagger jsx-dev-runtime shim (.fig/), which
+    // stamps host elements with data-fig-loc for visual edit. Builds use the
+    // default React runtime, so published output carries no tags.
+    react(command === 'serve' ? { jsxImportSource: 'fig-tagger' } : {}),
+    figInspectorPlugin(),
+  ],
   resolve: {
-    alias: { '@': path.resolve(__dirname, './src') },
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+      'fig-tagger': path.resolve(__dirname, './.fig'),
+    },
   },
   server: {
     host: '0.0.0.0',
@@ -76,4 +100,4 @@ export default defineConfig({
       clientPort: 443,
     },
   },
-})
+}))
