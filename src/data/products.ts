@@ -8,7 +8,7 @@ export const products: ProductItem[] = [
     category: 'Fine Line',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868726167-0jppgvjpt6pb.jpg',
     price: 2500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cIeV7b9IeiyfdG4SmaIM00',
     description: 'A custom fine line tattoo crafted with precision and care.',
   },
   {
@@ -18,7 +18,7 @@ export const products: ProductItem[] = [
     category: 'Blackwork',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868688516-oq04lrmiu1b.png',
     price: 500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cI9AN4Lkdeu0iM2KeaIM01',
     description: 'A custom blackwork tattoo crafted with precision and care.',
   },
   {
@@ -28,7 +28,7 @@ export const products: ProductItem[] = [
     category: 'Japanese',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868688326-ju7eiomr36.png',
     price: 1200,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/7sYeV791AfmCc1u2KeaIM03',
     description: 'A custom japanese tattoo crafted with precision and care.',
   },
   {
@@ -38,7 +38,7 @@ export const products: ProductItem[] = [
     category: 'Realism',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868737814-122hg4jitxkd.png',
     price: 350,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/cNi7sFb9Ieiy1mQ5WqaIM02',
     description: 'A custom realism tattoo crafted with precision and care.',
   },
   {
@@ -48,7 +48,7 @@ export const products: ProductItem[] = [
     category: 'Traditional',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868688645-xjslfd786m.png',
     price: 4000,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/6oUcMZb9Ieiyc1u3OiaIM04',
     description: 'A custom traditional tattoo crafted with precision and care.',
   },
   {
@@ -58,7 +58,7 @@ export const products: ProductItem[] = [
     category: 'Botanical',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868734726-3w8rzopmq7e.png',
     price: 350,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/7sY9AN3Hg6Q61mQ70uaIM05',
     description: 'A custom botanical tattoo crafted with precision and care.',
   },
   {
@@ -68,7 +68,7 @@ export const products: ProductItem[] = [
     category: 'Ornamental',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868734396-vquvgyt9iwf.png',
     price: 500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/28EfZb3Hg3DUd5yacGaIM06',
     description: 'A custom ornamental tattoo crafted with precision and care.',
   },
   {
@@ -78,7 +78,7 @@ export const products: ProductItem[] = [
     category: 'Script',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735407-8tngazwqd2n.png',
     price: 450,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/4gM3cpgu22zQd5ydoSaIM09',
     description: 'A custom script tattoo crafted with precision and care.',
   },
   {
@@ -88,7 +88,7 @@ export const products: ProductItem[] = [
     category: 'Fine Line',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736090-ryufiaos3n.png',
     price: 250,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/00wdR32Dcdeu5D64SmaIM07',
     description: 'A custom fine line tattoo crafted with precision and care.',
   },
   {
@@ -98,7 +98,7 @@ export const products: ProductItem[] = [
     category: 'Blackwork',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868734718-1t8hyl1nplm.png',
     price: 400,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/eVq6oB91A3DU5D60C6aIM08',
     description: 'A custom blackwork tattoo crafted with precision and care.',
   },
   {
@@ -108,7 +108,7 @@ export const products: ProductItem[] = [
     category: 'Japanese',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736174-digm6juwx0v.png',
     price: 550,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cI00d0v45M2c1u0C6aIM0a',
     description: 'A custom japanese tattoo crafted with precision and care.',
   },
   {
@@ -118,7 +118,7 @@ export const products: ProductItem[] = [
     category: 'Realism',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868733871-wtv92fqg5w.png',
     price: 1500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/fZufZb5PogqG6HaacGaIM0c',
     description: 'A custom realism tattoo crafted with precision and care.',
   },
   {
@@ -128,7 +128,7 @@ export const products: ProductItem[] = [
     category: 'Traditional',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735985-6pai0yvpuz9.png',
     price: 1800,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/8x23cp3Hg3DU7Le3OiaIM0b',
     description: 'A custom traditional tattoo crafted with precision and care.',
   },
   {
@@ -138,7 +138,7 @@ export const products: ProductItem[] = [
     category: 'Botanical',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735222-wgrtgto3vft.png',
     price: 3500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/dRm7sFa5E3DU0iM4SmaIM0f',
     description: 'A custom botanical tattoo crafted with precision and care.',
   },
   {
@@ -148,7 +148,7 @@ export const products: ProductItem[] = [
     category: 'Ornamental',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735583-iycq37ukb0q.png',
     price: 3800,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/fZu7sFa5Ea2i9TmgB4aIM0e',
     description: 'A custom ornamental tattoo crafted with precision and care.',
   },
   {
@@ -158,7 +158,7 @@ export const products: ProductItem[] = [
     category: 'Script',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736483-s4eyjvvys2.png',
     price: 1500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/9B6bIVa5E1vM0iMfx0aIM0d',
     description: 'A custom script tattoo crafted with precision and care.',
   },
   {
@@ -168,7 +168,7 @@ export const products: ProductItem[] = [
     category: 'Fine Line',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736600-w2wj0aqw9pi.png',
     price: 1400,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cI4gt2Dca2iaXq1GaaIM0g',
     description: 'A custom fine line tattoo crafted with precision and care.',
   },
   {
@@ -178,7 +178,7 @@ export const products: ProductItem[] = [
     category: 'Blackwork',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736694-u9g5o3te9s.png',
     price: 2000,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/aFacMZ1z86Q66Ha2KeaIM0h',
     description: 'A custom blackwork tattoo crafted with precision and care.',
   },
   {
@@ -188,7 +188,7 @@ export const products: ProductItem[] = [
     category: 'Japanese',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735799-7uqlsspvw83.png',
     price: 1600,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/dRm6oB1z8a2i5D60C6aIM0j',
     description: 'A custom japanese tattoo crafted with precision and care.',
   },
   {
@@ -198,7 +198,7 @@ export const products: ProductItem[] = [
     category: 'Realism',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868737216-840nl4z4wy.png',
     price: 1500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cI4gtcdM3DU6Ha84yaIM0i',
     description: 'A custom realism tattoo crafted with precision and care.',
   },
   {
@@ -208,7 +208,7 @@ export const products: ProductItem[] = [
     category: 'Traditional',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735087-7hxobyfvr8s.png',
     price: 3500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/cNi28ldhQ1vM0iM0C6aIM0k',
     description: 'A custom traditional tattoo crafted with precision and care.',
   },
   {
@@ -218,7 +218,7 @@ export const products: ProductItem[] = [
     category: 'Botanical',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868737381-ljbcvmw7xvk.png',
     price: 4000,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/5kQ4gt1z85M20iM0C6aIM0l',
     description: 'A custom botanical tattoo crafted with precision and care.',
   },
   {
@@ -228,7 +228,7 @@ export const products: ProductItem[] = [
     category: 'Ornamental',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868737389-meyqm36rqk.png',
     price: 3500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/bJe7sFelU7UaghK98CaIM0n',
     description: 'A custom ornamental tattoo crafted with precision and care.',
   },
   {
@@ -238,7 +238,7 @@ export const products: ProductItem[] = [
     category: 'Script',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868738103-0038yt6yltgyh.png',
     price: 1400,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/eVq28l7Xw3DU2qU98CaIM0m',
     description: 'A custom script tattoo crafted with precision and care.',
   },
   {
@@ -248,7 +248,7 @@ export const products: ProductItem[] = [
     category: 'Fine Line',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868736792-9hff5vovqeg.png',
     price: 500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/28E28lcdMgqG0iM5WqaIM0o',
     description: 'A custom fine line tattoo crafted with precision and care.',
   },
   {
@@ -258,7 +258,7 @@ export const products: ProductItem[] = [
     category: 'Blackwork',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868737888-63h0r01nbtb.png',
     price: 4200,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/6oUeV7fpYcaq6HaesWaIM0p',
     description: 'A custom blackwork tattoo crafted with precision and care.',
   },
   {
@@ -268,7 +268,7 @@ export const products: ProductItem[] = [
     category: 'Japanese',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868735078-vufp63xq3kk.png',
     price: 5000,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/14A7sF7Xw3DU7LeesWaIM0q',
     description: 'A custom japanese tattoo crafted with precision and care.',
   },
   {
@@ -278,7 +278,7 @@ export const products: ProductItem[] = [
     category: 'Realism',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868771722-7j8oth5s5cw.jpg',
     price: 3800,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/14AcMZfpY1vMaXq70uaIM0r',
     description: 'A custom realism tattoo crafted with precision and care.',
   },
   {
@@ -288,7 +288,7 @@ export const products: ProductItem[] = [
     category: 'Traditional',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868770450-ajq5j5ua2s.jpg',
     price: 3800,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/00wbIV6Ts1vMghK4SmaIM0s',
     description: 'A custom traditional tattoo crafted with precision and care.',
   },
   {
@@ -298,7 +298,7 @@ export const products: ProductItem[] = [
     category: 'Botanical',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868771350-x0oigdppuge.png',
     price: 1400,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/eVq8wJ1z8caqd5y2KeaIM0u',
     description: 'A custom botanical tattoo crafted with precision and care.',
   },
   {
@@ -308,7 +308,7 @@ export const products: ProductItem[] = [
     category: 'Ornamental',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868771599-fn9ki3wv06.png',
     price: 2500,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/bJefZb5Po0rI2qUesWaIM0t',
     description: 'A custom ornamental tattoo crafted with precision and care.',
   },
   {
@@ -318,7 +318,7 @@ export const products: ProductItem[] = [
     category: 'Script',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868823287-wbeu6fnf1gr.png',
     price: 200,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/cNiaERfpYdeu8Pifx0aIM0v',
     description: 'A custom script tattoo crafted with precision and care.',
   },
   {
@@ -328,7 +328,7 @@ export const products: ProductItem[] = [
     category: 'Fine Line',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868821604-oucs108rnm.png',
     price: 150,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/eVqdR3cdM4HY4z2gB4aIM0z',
     description: 'A custom fine line tattoo crafted with precision and care.',
   },
   {
@@ -338,7 +338,7 @@ export const products: ProductItem[] = [
     category: 'Blackwork',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868821233-6ehjp5yl6sp.png',
     price: 200,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/3cI00d5Po0rI7LegB4aIM0w',
     description: 'A custom blackwork tattoo crafted with precision and care.',
   },
   {
@@ -348,7 +348,7 @@ export const products: ProductItem[] = [
     category: 'Japanese',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868822406-51gz3mbm4z.png',
     price: 300,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/14A28ldhQ0rI0iM0C6aIM0x',
     description: 'A custom japanese tattoo crafted with precision and care.',
   },
   {
@@ -358,7 +358,7 @@ export const products: ProductItem[] = [
     category: 'Realism',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868822993-06ky9vhi2wh6.png',
     price: 250,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/eVq3cpa5Ea2i7Le2KeaIM0y',
     description: 'A custom realism tattoo crafted with precision and care.',
   },
   {
@@ -368,7 +368,7 @@ export const products: ProductItem[] = [
     category: 'Traditional',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868822085-5ncx0rh05vj.png',
     price: 350,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/4gM00d0v4gqG8Pi0C6aIM0A',
     description: 'A custom traditional tattoo crafted with precision and care.',
   },
   {
@@ -378,7 +378,7 @@ export const products: ProductItem[] = [
     category: 'Botanical',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868822311-89oytjl1cbt.png',
     price: 350,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/7sYdR34Lka2ifdG2KeaIM0C',
     description: 'A custom botanical tattoo crafted with precision and care.',
   },
   {
@@ -388,7 +388,7 @@ export const products: ProductItem[] = [
     category: 'Ornamental',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868821774-asqun2dyub.png',
     price: 1400,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/8x26oB2DcfmCaXqckOaIM0B',
     description: 'A custom ornamental tattoo crafted with precision and care.',
   },
   {
@@ -398,7 +398,7 @@ export const products: ProductItem[] = [
     category: 'Script',
     image: 'https://storage.googleapis.com/figapp-44eac.appspot.com/chat-attachments/eaif8ssL2XQD47wTDX7ZoRjOmmk1/efd69dba-0f77-4241-ae15-325722400785/images/1785868822697-s98qllkuxz.png',
     price: 1800,
-    stripeUrl: '[PAYMENT LINK PENDING]',
+    stripeUrl: 'https://buy.stripe.com/7sYeV76TsgqGc1ufx0aIM0D',
     description: 'A custom script tattoo crafted with precision and care.',
   },
 ]

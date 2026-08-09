@@ -55,6 +55,8 @@ export default function GalleryDetailPage() {
 
             <a
               href={product.stripeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3 bg-gray-500 border-2 border-white text-white font-bold font-body text-sm tracking-widest uppercase rounded-xl hover:bg-white/10 transition-colors duration-200 w-full text-center"
             >
               Purchase &mdash; ${product.price}
